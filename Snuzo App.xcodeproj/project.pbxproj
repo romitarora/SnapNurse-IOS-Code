@@ -266,6 +266,8 @@
 		A55B496E1D48E9DE001B5CF4 /* back icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55B496B1D48E9DE001B5CF4 /* back icon@2x.png */; };
 		A55B496F1D48E9DE001B5CF4 /* back icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A55B496C1D48E9DE001B5CF4 /* back icon@3x.png */; };
 		B310155A1DA542560090D2DB /* TermsConditionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B31015591DA542560090D2DB /* TermsConditionVC.m */; };
+		B491D1A81EA73C2700A9B0B6 /* AddRate.m in Sources */ = {isa = PBXBuildFile; fileRef = B491D1A51EA73C2700A9B0B6 /* AddRate.m */; };
+		B491D1A91EA73C2700A9B0B6 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = B491D1A71EA73C2700A9B0B6 /* Wallet.m */; };
 		CE0F75D91BAD4AB9003B0725 /* amenities.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75D71BAD4AB9003B0725 /* amenities.png */; };
 		CE0F75DA1BAD4AB9003B0725 /* amenities@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75D81BAD4AB9003B0725 /* amenities@2x.png */; };
 		CE16D3851BB26CE1000B7EEC /* payment.m in Sources */ = {isa = PBXBuildFile; fileRef = CE16D3841BB26CE1000B7EEC /* payment.m */; };
@@ -394,7 +396,6 @@
 		CE6A372E1B9D9BFA008A1C03 /* URLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A372D1B9D9BFA008A1C03 /* URLManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE77BE431BD7BF4200BBDABB /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = CE77BE411BD7BF4200BBDABB /* review.png */; };
 		CE77BE441BD7BF4200BBDABB /* review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE77BE421BD7BF4200BBDABB /* review@2x.png */; };
-		CE77BE471BD7C03500BBDABB /* AddRate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77BE461BD7C03500BBDABB /* AddRate.m */; };
 		CE77BE4C1BD7CB8F00BBDABB /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE77BE481BD7CB8F00BBDABB /* star1.png */; };
 		CE77BE4D1BD7CB8F00BBDABB /* star1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE77BE491BD7CB8F00BBDABB /* star1@2x.png */; };
 		CE77BE4E1BD7CB8F00BBDABB /* unselected-star1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE77BE4A1BD7CB8F00BBDABB /* unselected-star1.png */; };
@@ -409,7 +410,6 @@
 		CE89D5711BD604ED000360CD /* RateVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89D5701BD604ED000360CD /* RateVc.m */; };
 		CE9325981BD771EF00B8C0C2 /* JXBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9325971BD771EF00B8C0C2 /* JXBarChartView.m */; };
 		CE93259B1BD772B900B8C0C2 /* UIColor+MRColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93259A1BD772B900B8C0C2 /* UIColor+MRColor.m */; };
-		CE93259F1BD7770300B8C0C2 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93259E1BD7770300B8C0C2 /* Wallet.m */; };
 		CE9325A41BD781FE00B8C0C2 /* selected-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9325A01BD781FE00B8C0C2 /* selected-heart.png */; };
 		CE9325A51BD781FE00B8C0C2 /* selected-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9325A11BD781FE00B8C0C2 /* selected-heart@2x.png */; };
 		CE9325A61BD781FE00B8C0C2 /* unselected-star.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9325A21BD781FE00B8C0C2 /* unselected-star.png */; };
@@ -736,6 +736,10 @@
 		A55B496C1D48E9DE001B5CF4 /* back icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back icon@3x.png"; sourceTree = "<group>"; };
 		B31015581DA542560090D2DB /* TermsConditionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TermsConditionVC.h; path = Classis/TermsCondition/TermsConditionVC.h; sourceTree = "<group>"; };
 		B31015591DA542560090D2DB /* TermsConditionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TermsConditionVC.m; path = Classis/TermsCondition/TermsConditionVC.m; sourceTree = "<group>"; };
+		B491D1A41EA73C2700A9B0B6 /* AddRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRate.h; path = "Snuzo App/Classis/Hotel Listing/Rate classes/RATE/AddRate.h"; sourceTree = SOURCE_ROOT; };
+		B491D1A51EA73C2700A9B0B6 /* AddRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRate.m; path = "Snuzo App/Classis/Hotel Listing/Rate classes/RATE/AddRate.m"; sourceTree = SOURCE_ROOT; };
+		B491D1A61EA73C2700A9B0B6 /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wallet.h; path = "Snuzo App/Classis/Hotel Listing/Rate classes/RATE/Wallet.h"; sourceTree = SOURCE_ROOT; };
+		B491D1A71EA73C2700A9B0B6 /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wallet.m; path = "Snuzo App/Classis/Hotel Listing/Rate classes/RATE/Wallet.m"; sourceTree = SOURCE_ROOT; };
 		CE0F75D71BAD4AB9003B0725 /* amenities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amenities.png; sourceTree = "<group>"; };
 		CE0F75D81BAD4AB9003B0725 /* amenities@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amenities@2x.png"; sourceTree = "<group>"; };
 		CE16D3831BB26CE1000B7EEC /* payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payment.h; sourceTree = "<group>"; };
@@ -914,8 +918,6 @@
 		CE6A372D1B9D9BFA008A1C03 /* URLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLManager.m; sourceTree = "<group>"; };
 		CE77BE411BD7BF4200BBDABB /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review.png; sourceTree = "<group>"; };
 		CE77BE421BD7BF4200BBDABB /* review@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "review@2x.png"; sourceTree = "<group>"; };
-		CE77BE451BD7C03500BBDABB /* AddRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddRate.h; path = "RATE /AddRate.h"; sourceTree = "<group>"; };
-		CE77BE461BD7C03500BBDABB /* AddRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddRate.m; path = "RATE /AddRate.m"; sourceTree = "<group>"; };
 		CE77BE481BD7CB8F00BBDABB /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
 		CE77BE491BD7CB8F00BBDABB /* star1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star1@2x.png"; sourceTree = "<group>"; };
 		CE77BE4A1BD7CB8F00BBDABB /* unselected-star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected-star1.png"; sourceTree = "<group>"; };
@@ -936,8 +938,6 @@
 		CE9325971BD771EF00B8C0C2 /* JXBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBarChartView.m; sourceTree = "<group>"; };
 		CE9325991BD772B900B8C0C2 /* UIColor+MRColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MRColor.h"; sourceTree = "<group>"; };
 		CE93259A1BD772B900B8C0C2 /* UIColor+MRColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MRColor.m"; sourceTree = "<group>"; };
-		CE93259D1BD7770300B8C0C2 /* Wallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wallet.h; sourceTree = "<group>"; };
-		CE93259E1BD7770300B8C0C2 /* Wallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wallet.m; sourceTree = "<group>"; };
 		CE9325A01BD781FE00B8C0C2 /* selected-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-heart.png"; sourceTree = "<group>"; };
 		CE9325A11BD781FE00B8C0C2 /* selected-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-heart@2x.png"; sourceTree = "<group>"; };
 		CE9325A21BD781FE00B8C0C2 /* unselected-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected-star.png"; sourceTree = "<group>"; };
@@ -2163,8 +2163,6 @@
 				CE93259C1BD7770300B8C0C2 /* RATE  */,
 				CE89D56F1BD604ED000360CD /* RateVc.h */,
 				CE89D5701BD604ED000360CD /* RateVc.m */,
-				CE77BE451BD7C03500BBDABB /* AddRate.h */,
-				CE77BE461BD7C03500BBDABB /* AddRate.m */,
 			);
 			name = "Rate classes";
 			path = "Snuzo App/Classis/Hotel Listing/Rate classes";
@@ -2185,8 +2183,10 @@
 		CE93259C1BD7770300B8C0C2 /* RATE  */ = {
 			isa = PBXGroup;
 			children = (
-				CE93259D1BD7770300B8C0C2 /* Wallet.h */,
-				CE93259E1BD7770300B8C0C2 /* Wallet.m */,
+				B491D1A41EA73C2700A9B0B6 /* AddRate.h */,
+				B491D1A51EA73C2700A9B0B6 /* AddRate.m */,
+				B491D1A61EA73C2700A9B0B6 /* Wallet.h */,
+				B491D1A71EA73C2700A9B0B6 /* Wallet.m */,
 			);
 			path = "RATE ";
 			sourceTree = "<group>";
@@ -2605,10 +2605,10 @@
 				29FC27FE1BB1AD70002E5158 /* STPColorUtils.m in Sources */,
 				CEDC17B31BECCDB7004E1D13 /* RateView.m in Sources */,
 				29B4AAA31D49E068000CE435 /* DayTitleLabel.m in Sources */,
+				B491D1A81EA73C2700A9B0B6 /* AddRate.m in Sources */,
 				29FC28321BB1AE32002E5158 /* PaymentViewController.m in Sources */,
 				CE5640271B737E070001DB02 /* ViewController.m in Sources */,
 				29FC28001BB1AD70002E5158 /* STPOSXCheckoutWebViewAdapter.m in Sources */,
-				CE77BE471BD7C03500BBDABB /* AddRate.m in Sources */,
 				29FC27FD1BB1AD70002E5158 /* STPCheckoutViewController.m in Sources */,
 				29FC28261BB1AD70002E5158 /* STPCardValidator.m in Sources */,
 				CEAA56111BB11A86001A98ED /* ForgatePasswordViewController.m in Sources */,
@@ -2654,6 +2654,7 @@
 				297FA4471D5207BA008A4719 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				29B4AAA41D49E068000CE435 /* NSDate+CL.m in Sources */,
 				29FC282B1BB1AD70002E5158 /* STPPaymentCardTextField.m in Sources */,
+				B491D1A91EA73C2700A9B0B6 /* Wallet.m in Sources */,
 				CE9566A11BE87975001FD476 /* BookDetail.m in Sources */,
 				29FC27E81BB1AD70002E5158 /* STPAPIClient+ApplePay.m in Sources */,
 				29FC27FB1BB1AD70002E5158 /* STPCheckoutInternalUIWebViewController.m in Sources */,
@@ -2680,7 +2681,6 @@
 				29A44D961D4CB2830014CDA7 /* AHTag.m in Sources */,
 				CE56405E1B737FAE0001DB02 /* ArroundMe_VC.m in Sources */,
 				29B4AAA11D49E068000CE435 /* CLWeeklyCalendarView.m in Sources */,
-				CE93259F1BD7770300B8C0C2 /* Wallet.m in Sources */,
 				29FC28251BB1AD70002E5158 /* STPCard.m in Sources */,
 				042D10991E891E4500115A63 /* NewLoginVC.m in Sources */,
 				CE3F69491BAD30F000AD3C55 /* FbGraph.m in Sources */,
