@@ -1,0 +1,17 @@
+/*
+ *  OAuthConsumerCredentials.h
+ *
+ *  Created by Jaanus Kase on 16.01.10.
+ *  Copyright 2010. All rights reserved.
+ *
+ */
+
+//twitter
+//#define OAUTH_CONSUMER_KEY @"ldsxfNJpA5zDUR75zn9pkg"
+//#define OAUTH_CONSUMER_SECRET @"5bCLVHmQyvIVtdKqjCaSKGytEiEsXbB4qqElI88g"
+
+#define OAUTH_CONSUMER_KEY @"B2Cw5anXPTftfmCzHGLjni6tr"
+#define OAUTH_CONSUMER_SECRET @"nSBy9BnRleCH0rgtV8M5WwOD2z5A3fPAHbS2aq29YlQomZNcNj"
+//foursqure
+#define OAUTH_CLIENT_ID @"0FY0OUZNS3QWK2POAMAAMS1VRJ1KGQVWYMAS5JIA241PYYWG"
+#define OAUTH_CLIENT_SECRET @"XP1ZD0SKBMUSDOMT4HLFNFERYO4IR2YTMCZUCTWJ1FQRIHCH"
